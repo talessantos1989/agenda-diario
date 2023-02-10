@@ -1,0 +1,20 @@
+
+.categoria-evento{
+    max-width: 1064px;
+    padding: 6px;
+    margin:0 auto;
+    /* background-color: #F9FAFB; */
+    width: 100%;
+    cursor: pointer;
+}
+.eventos{
+    display: inline;
+    margin-top: 32px;
+}
+.titulo-evento{
+    font-size: 16px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    padding-botton: 8px;
+}
+

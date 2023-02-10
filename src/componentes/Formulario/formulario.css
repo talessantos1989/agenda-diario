@@ -1,0 +1,20 @@
+.formulario-Container{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+
+.formulario-Container .formulario-evento{
+    width: 35%;
+    background-color: #F2F2F2;
+    border-radius: 3px;
+    padding: 36px 64px;
+    box-shadow: 0 1px 1px 0 rgb(60 64 67 / 10%), 
+    0 1px 3px 1px rgb(60 64 67 / 20%);
+}
+
+.formulario-Container .titulo-formulario{
+    background-color: #232323;
+    text-align: center;
+}

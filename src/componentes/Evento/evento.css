@@ -1,0 +1,71 @@
+.evento{
+    width: 100%;
+}
+
+.cabecalho{
+    border-radius: 10px 10px 0 0;
+    margin-top: 14px;
+    height: 10px;
+}
+
+.evento img{
+    width: 130px;
+    margin: 20px 37px;
+}
+
+.rodape{
+    background: #FFFFFF;
+    /* box-shadow: 5px 5px 15px rgba(0,0,0,0.08); */
+    /* border: 0px solid black; */
+    box-shadow: 0 1px 1px 0 rgb(60 64 67 / 10%), 
+                0 1px 3px 1px rgb(60 64 67 / 20%);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+}
+
+.rodape h4{
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    max-width: 80%;
+}
+
+.rodape h5{
+    font-size: 12px;
+    color: #212121;
+    margin: 5px auto;
+    font-weight: 450;
+}
+
+.titulo-rodape{
+    display: flex;
+}
+
+.div-imagem{
+    display: inline-block;
+}
+
+.info-card{
+    display: inline-block;
+    text-align: left;
+    min-width: 58%;
+    max-width: 59%;
+    
+}
+
+.info-card-titulo,
+.info-card-descricao,
+.info-card-data,
+.info-card-hora,
+.info-card-local{
+    display: inline;
+
+}
+
+.info-card-botao{
+    display: inline-flex;
+    margin: auto 68px;
+}
+

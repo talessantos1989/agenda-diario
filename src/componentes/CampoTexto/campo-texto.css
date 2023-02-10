@@ -1,0 +1,22 @@
+.input-container{
+    margin: 24px 0;
+
+}
+
+.input-container .label-formulario{
+    display: block;
+    margin-botton: 8px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.input-container .input-formulario  {
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px
+}
