@@ -20,3 +20,9 @@
     box-sizing: border-box;
     border-radius: 5px
 }
+
+.input-container .input-formulario-color{
+    height: 35px;
+    width: 140px;
+    padding: 5px 24px;
+}

@@ -2,25 +2,25 @@ import Evento from "../Evento";
 import './categoria.css'
 
 
-const Categoria = (props)=>{
+const Categoria = ({shows, categorias, aoDeletar, mudarCor,aoFavoritar})=>{
     
     return(
-
         //o if dele é com essa sintaxe
-        (props.shows.length > 0) && 
+        (shows.length > 0) && 
         <section className="categoria-evento">
-            <h3 className="titulo-evento" style={{ borderColor: props.corPrimaria}}>{props.categoria}</h3>
+            <input onChange={evento => mudarCor(evento.target.value, categorias.id)} type='color' value={categorias.cor} className='input-cor' />
+            <h3 className="titulo-evento" style={{ borderColor: categorias.corPrimaria}}>{categorias.categoria}</h3>
             <div className="eventos">
-                {props.shows.map(item => <Evento 
-                    key={item.titulo} 
-                    titulo={item.titulo} 
-                    data={item.data} 
-                    link={item.link}
-                    hora={item.hora}
-                    local={item.local}
-                    descricao={item.descricao}
-                    imagem={item.imagem} 
-                    corDeFundo={props.corPrimaria}/> )}
+                {shows.map((show, indice) => {
+                    return <Evento 
+                                key={indice} 
+                                show = {show} 
+                                corDeFundo={categorias.cor} 
+                                aoDeletar={aoDeletar}
+                                aoFavoritar={aoFavoritar}
+                            /> 
+
+                })}
             </div>
         </section>
         

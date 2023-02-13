@@ -1,5 +1,6 @@
 .evento{
     width: 100%;
+    position: relative;
 }
 
 .cabecalho{
@@ -69,3 +70,12 @@
     margin: auto 68px;
 }
 
+.deletar{
+    position: absolute;
+    right: -17px;
+    top: -10px;
+}
+
+.favorito{
+    margin-top: 10px;
+}
